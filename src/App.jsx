@@ -18,7 +18,7 @@ function App() {
           <Route path="*" element={<Navigate to="/me" replace />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
