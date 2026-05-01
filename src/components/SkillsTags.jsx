@@ -4,7 +4,7 @@ const SkillsTags = ({ skills }) => {
       {skills.map((skill, index) => (
         <span
           key={index}
-          className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary-100 text-primary-800 hover:bg-primary-200 transition-colors"
+          className="px-3 py-1 text-sm font-medium bg-slate-100 text-slate-600 rounded-full hover:bg-primary-50 hover:text-primary-700 transition-colors cursor-default"
         >
           {skill}
         </span>

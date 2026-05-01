@@ -26,7 +26,7 @@ export const resumeData = {
   ],
   
   education: {
-    university: "University of Washington",
+    university: "University of Washington – Bothell",
     degree: "Bachelor's Business Administration",
     honors: "Cum Laude"
   },

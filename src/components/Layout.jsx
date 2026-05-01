@@ -8,9 +8,10 @@ const Layout = () => {
       <main className="flex-grow">
         <Outlet />
       </main>
-      <footer className="bg-white border-t border-gray-200 py-6 mt-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} Product Manager Portfolio. All rights reserved.</p>
+      <footer className="border-t border-slate-100 py-8 mt-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm text-slate-400">
+          <span className="font-medium">Cole Lance</span>
+          <span>© {new Date().getFullYear()}</span>
         </div>
       </footer>
     </div>
